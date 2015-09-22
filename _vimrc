@@ -24,6 +24,16 @@ colorscheme iceberg
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+set cindent
+
+
+if has("gui_running")
+  set guifont=Hack:h10
+endif
 
 filetype plugin indent on     " required!
 
